@@ -32,6 +32,13 @@ sections:
     - partial: content
       content:
         page: workshop/program.md
+    - title: Accepted Submissions
+      partial: list
+      content:
+        data: accepted-papers-2026
+      params:
+        showYearAfterVenue: true
+        hideVenueTag: true
     - partial: content
       content:
         page: workshop/contribute.md

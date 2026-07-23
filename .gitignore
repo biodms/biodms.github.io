@@ -4,6 +4,7 @@
 /resources/_gen/
 /.vscode/
 /.mypy_cache/
+/var
 
 hugo.exe
 hugo.linux

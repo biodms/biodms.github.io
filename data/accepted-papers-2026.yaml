@@ -1,0 +1,263 @@
+- bibTeX: |
+    @inproceedings{ionescu2026mediverse,
+      title={Mediverse: Multimodal Clinical Exploration and Search on a Single Graph},
+      author={Ionescu, Andra and Carbone, Paris and Meijer, Sebastiaan and Raghothama, Jayanth},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'Mediverse: Multimodal Clinical Exploration and Search on a Single Graph'
+  authors:
+  - Andra Ionescu
+  - Paris Carbone
+  - Sebastiaan Meijer
+  - Jayanth Raghothama
+  abstract: |
+    Mediverse aims to bridge clinical and medical research and combine medical knowledge into a single graph that can be used to perform deep exploration and predictions across diverse modalities (e.g., genomic, clinical studies, medical, etc.). In particular, Mediverse intends to establish trust in medical data systems and exploit the benefits of graph representation learning methods, which are capable of addressing multiple key challenges that harm digitalisation in healthcare and medicine sectors today, namely: multi-modal data integration across clinics, complex search, and uncertainty-aware predictive computing.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=1cDpN0B4G2
+  id: ionescu2026mediverse
+  thumbnail: /images/papers/BioDMS26_1.png
+  type: publication
+  group: Lightning Talk
+  tag: lightning-talk
+
+- bibTeX: |
+    @inproceedings{zheng2026from,
+      title={From Guardrails to Compilers: A Constraint-First Runtime Substrate for Clinical AI Agents},
+      author={Zheng, Kaiping and Chua, Horng-Ruey and Kheok, Si Wei and Ngiam, Kee Yuan and Tan, Marcus Chun Jin and Walsh, Robert John},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'From Guardrails to Compilers: A Constraint-First Runtime Substrate for Clinical AI Agents'
+  authors:
+  - Kaiping Zheng
+  - Horng-Ruey Chua
+  - Si Wei Kheok
+  - Kee Yuan Ngiam
+  - Marcus Chun Jin Tan
+  - Robert John Walsh
+  abstract: |
+    LLM-powered clinical agents now read electronic health records, retrieve evidence, and draft recommendations inside molecular tumor boards, ICUs, and rare-disease clinics. Recent evaluations are sobering: agents hallucinate dosages and omit standard-of-care steps, induce automation bias even among AI-trained physicians, fall to medical-advice prompt injection at above 90% success rates, and often cannot produce a defensible audit trail when a decision is later contested. We argue this is a runtime failure, not a model failure: the substrate on which medical agents execute lacks first-class data primitives for constraint enforcement, provenance tracking, and policy-aware federation. We therefore sketch a constraint-first runtime that compiles every agent action, whether a tool call, a retrieval, a semantic operator, or a final recommendation, into a constrained, provenance-tracked query plan. Semantic integrity constraints, computable subsets of oncology and sepsis guidelines, ontological axioms over standard clinical vocabularies, and federation-aware access policies are expressed in one specification, from which the runtime compiles a plan whose safety, security, and auditability hold by construction. Under this view, the data-management primitives long refined by the community (semantic constraints and operators, semiring-annotated provenance, secure federated query processing, access control, and incremental view maintenance) become the trusted computing base for clinical agents, and contextual intelligence becomes a matter of query planning rather than model scale. We illustrate the design with a molecular-tumor-board example, sketch a four-layer architecture, and lay out the open questions it raises for the data management community.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=KtgISugg4l
+  id: zheng2026from
+  thumbnail: /images/papers/BioDMS26_2.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
+
+- bibTeX: |-
+    @inproceedings{aster2026the,
+      title={The Genomic Variant Store: Decoupling Cloud-Native Storage from Analysis to Power Population-Scale Genomic Services},
+      author={Aster, M. Morgan and Balaconis, M. Kate and Bemis, Matt and Covarrubias, Miguel and Hatcher, Aaron and Kachulis, Christopher and Labrecque, Sofia and Shah, Saloni P. and Lichtenstein, Lee},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'The Genomic Variant Store: Decoupling Cloud-Native Storage from Analysis to Power Population-Scale Genomic Services'
+  authors:
+  - M. Morgan Aster
+  - M. Kate Balaconis
+  - Matt Bemis
+  - Miguel Covarrubias
+  - Aaron Hatcher
+  - Christopher Kachulis
+  - Sofia Labrecque
+  - Saloni P. Shah
+  - Lee Lichtenstein
+  abstract: |
+    Joint variant calling at biobank scale introduces two compounding infrastructure challenges: storing hundreds of thousands of genomes efficiently, and avoiding full reprocessing when new samples arrive. The Genomic Variant Store (GVS) addresses both by reframing joint calling as a cloud-native data management problem. Built on Google BigQuery, GVS uses a sparse alt-allele representation that scales linearly with cohort size and supports incremental ingestion, eliminating the need to reprocess existing samples. Deployed across 535,662 whole-genome sequencing samples in the All of Us CDR v9, GVS achieves a cost of USD$0.035 per sample -- roughly half the cost of the prior release -- by ingesting only new samples rather than the full cohort. By decoupling storage from analysis formats, GVS functions as a shared foundation for downstream data products. For example, the *All of Us* Cohort Builder, which enables sub-minute genotypic queries across 1.3 billion variant sites, and the *All of Us* + AnVIL Imputation Service which leverages GVS extractions to power the world's largest and most diverse genomic imputation reference panel. Together, these examples demonstrate that a well-designed variant storage layer is foundational infrastructure for population-scale biomedical discovery.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=c8fvDRxcVg
+    website: https://gatk.broadinstitute.org/hc/en-us
+    code: https://github.com/broadinstitute/gatk/tree/ah_var_store
+  id: aster2026the
+  thumbnail: /images/papers/BioDMS26_3.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
+
+- bibTeX: |
+    @inproceedings{marimuthu2026right,
+      title={Right for the Wrong Reasons: A Benchmark for Hallucination and Clinical Safety in AI Health Triage},
+      author={Marimuthu, Sreeram and Shraga, Roee and Liu, Xiaozhong and Mabry, Patricia L.},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'Right for the Wrong Reasons: A Benchmark for Hallucination and Clinical Safety in AI Health Triage'
+  authors:
+  - Sreeram Marimuthu
+  - Roee Shraga
+  - Xiaozhong Liu
+  - Patricia L. Mabry
+  abstract: |
+    Consumer-facing AI systems now advise millions of patients on the urgency of their health conditions, yet their evaluation has largely focused on accuracy alone. Accuracy, however, is insufficient for high-stakes health decision support: models must provide sound, contextually grounded reasoning because their explanations can directly influence whether patients seek timely care or delay treatment. To address this important gap, we introduce an empirical benchmark for evaluating clinical triage systems that assesses explanation quality alongside decision outcomes. We compare 4 open-source language models against a ChatGPT Health baseline across 78 physician-labeled clinical vignettes spanning 19 medical domains. Beyond accuracy, we evaluate calibration, clinical reasoning coherence, faithfulness to clinical context, and over- and under-triage rates, dimensions critical to patient safety. Our results show that Gemma 2 9B achieves 79.5% accuracy compared to the top performer in our evaluation, ChatGPT Health (84.6%), which exhibits substantial fabrication in 69.2% of its explanations. We further observe strong prompt sensitivity: DeepSeek-R1 7B degrades by 20.5% under structured prompting, while Mistral 7B improves by 15.4%. We provide a reproducible, checkpoint-based evaluation pipeline and outline a roadmap for bias stress-testing, hallucination mitigation, and open benchmark release.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=N6oia01YDX
+    code: https://github.com/sreerammarimuthu/AI-triage-benchmark
+  id: marimuthu2026right
+  thumbnail: /images/papers/BioDMS26_6.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
+
+- bibTeX: |
+    @inproceedings{debnath2026the,
+      title={The Data Management Crisis Behind AI-Based Brain MRI Diagnosis: Heterogeneity, Governance, and Reproducibility},
+      author={Debnath, Tanmoy and Narbutt, Miroslaw and Kazimierczak, Katarzyna Anna},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'The Data Management Crisis Behind AI-Based Brain MRI Diagnosis: Heterogeneity, Governance, and Reproducibility'
+  authors:
+  - Tanmoy Debnath
+  - Miroslaw Narbutt
+  - Katarzyna Anna Kazimierczak
+  abstract: |
+    AI-based brain magnetic resonance imaging (MRI) classifiers face a persistent gap between laboratory performance and clinical deployability. We argue the bottleneck is not model architecture but the absence of principled data management infrastructure. Drawing on our ongoing work in explainable multi-disease MRI classification, we identify five critical data management challenges: heterogeneity, governance misalignment, pipeline irreproducibility, annotation provenance, and demographic bias. To address these issues, we propose a minimal proof-of-concept metadata harmonization toolkit as a practical and tractable starting point for standardization. We further outline a validation protocol that measures field-level mapping coverage, clinician-reviewed preservation of phenotype and severity-score semantics, provenance completeness, and downstream classifier transfer across ADNI and OASIS-3. We invite the data management community to co-design the schema-mapping and query-optimization layers.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=iMNEqE0H1g
+  id: debnath2026the
+  thumbnail: /images/papers/BioDMS26_9.png
+  type: publication
+  group: Lightning Talk
+  tag: lightning-talk
+
+- bibTeX: |
+    @inproceedings{nguyen2026medsqlx,
+      title={MedSQLX: Translation of Medical Queries into UDF-Centric SQL},
+      author={Nguyen, Catlynh and Bin Riaz, Irbaz and Baral, Chitta and Zou, Jia},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'MedSQLX: Translation of Medical Queries into UDF-Centric SQL'
+  authors:
+  - Catlynh Nguyen
+  - Irbaz Bin Riaz
+  - Chitta Baral
+  - Jia Zou
+  abstract: |
+    NL-to-SQL systems have matured considerably for standard SQL generation, yet they largely overlook user-defined functions (UDFs), which are custom higher-order logic, such as clinical rules, scoring formulas, and domain-specific classifications.
+
+    This paper presents an agentic framework for generating UDF-centric queries from natural language task descriptions in the medical domain. Our proposed framework has two layers: a semantic analysis layer and a code generation layer. The semantic analysis layer consists of one detector that identifies ambiguity of the task description, and one resolver that ranks interpretations to ambiguous aspects of the query. The code generation layer is built on top of AgentFlow, where a planner agent coordinates three specialized tools: a medical knowledge base query executor, a DuckDB query executor, and an LLM-based UDF validator to iteratively generate, register, and verify DuckDB SQL macro functions and Python UDFs. Once the verifier agent decides that the task has been completed, a generator agent will generate the complete SQL code with UDF invocations.
+
+    We evaluate the system on ten medical query scenarios using the MedAgentBench dataset, including glucose classification, potassium risk, chronic kidney disease staging, HbA1C classification, creatinine elevation, temporal recency, multi-factor diabetes risk scoring, glucose trend detection, creatinine streak analysis, and potassium volatility assessment. Our framework correctly handles all 57 test cases with 100\% accuracy, compared to 49\% accuracy achieved by DIN-SQL, a state-of-the-art NL-to-SQL baseline, demonstrating that structured tool orchestration with verification loops substantially improves generation quality.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=fcR4RiawOZ
+  id: nguyen2026medsqlx
+  thumbnail: /images/papers/BioDMS26_10.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
+
+- bibTeX: |
+    @inproceedings{galbraith2026similarity-based,
+      title={Similarity-Based Load-Balancing for Distributed Genomic Indices},
+      author={Galbraith, Woodward and Mammadov, Ilgar and Pathak, Shreyaan and Gyori, Benjamin M. and Pandey, Prashant},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'Similarity-Based Load-Balancing for Distributed Genomic Indices'
+  authors:
+  - Woodward Galbraith
+  - Ilgar Mammadov
+  - Shreyaan Pathak
+  - Benjamin M. Gyori
+  - Prashant Pandey
+  abstract: |
+    Publicly accessible large-scale sequencing data repositories are expanding rapidly. For example, the NIH Sequence Read Archive (SRA) alone now holds over 50 petabases of data and grows 16\% larger every year. Enabling efficient search over these vast datasets is key to advancing biological discovery. Recent work has introduced updatable, distributed search indices over unassembled sequencing experiments at petabase scale. However, current methods do not consider sequence similarity when distributing new experiments to nodes, leading to redundant storage and inflated index sizes, a bottleneck for keeping up with ever-expanding modern genomic repositories. To address this, we propose a similarity-based load-balancing strategy, which can be applied to any updatable distributed genomic search index, and implement a system using genomic sketching methods to distribute files across nodes. Our initial results, evaluated on a 2000-experiment subset of the Breast, Blood, and Brain dataset from SRA, demonstrate that similarity-based load-balancing reduces aggregate k-mer count by ~ 8.6\%, worker k-mer variance by ~61\%, and color class table sizes by ~4.7\% and further, that these compactness gains scale with both number of experiments and worker count, compared to naive routing methods, indicating this is a viable path towards more compact and better load-balanced distributed genomic search indices.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=NOdo1p7Pce
+    code: https://github.com/buzgalbraith/mantis_lb
+  id: galbraith2026similarity-based
+  thumbnail: /images/papers/BioDMS26_11.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
+
+- bibTeX: |-
+    @inproceedings{dorn2026an,
+      title={An Analysis Graph for Statistical Genetics Agents},
+      author={Dorn, Stephen and Mohoney, Jason and Kraska, Tim and Madden, Samuel and Zaitlen, Noah and Hujoel, Margaux},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'An Analysis Graph for Statistical Genetics Agents'
+  authors:
+  - Stephen Dorn
+  - Jason Mohoney
+  - Tim Kraska
+  - Samuel Madden
+  - Noah Zaitlen
+  - Margaux Hujoel
+  abstract: |
+    Statistical genetics workflows have grown more complex in recent years, with new methods, software, genome annotations, and publicly available GWAS summary statistics outpacing what any one researcher can keep track of. The problem is sharpest for clinical investigators, who often have deep disease expertise but limited bandwidth to track an expanding post-GWAS toolkit. Coding agents can run the software, but command execution alone does not produce a reviewable, reusable analysis. We propose a graph-backed analysis agent for statistical genetics. Skills describe each analysis task; the agent executes them and uses the graph to pick methods, reconcile mismatched inputs, and route results between stages. The graph also records typed claims about every artifact, command, reference, and result, including dataset identity, genome build, linkage-disequilibrium (LD) reference panel, software version, quality-control summaries, and unresolved expert-review decisions. In a preliminary case study, the agent ran a nine-stage post-GWAS pipeline on a public inflammatory bowel disease (IBD) GWAS, finishing in 94.7 minutes on a single laptop CPU. The agent recovered the canonical IBD genetic architecture and left a queryable, reviewable record of every method, reference, and decision.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=kvUbdWiVk3
+    code: https://github.com/svdorn/statgen-skills
+  id: dorn2026an
+  thumbnail: /images/papers/BioDMS26_12.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
+
+- bibTeX: |-
+    @inproceedings{marini2026data,
+      title={Data Gatherer v0.2: High-Recall Retrieve-then-Read via Semantic Retrieval, Regex Anchoring, and Fine-Tuned T5},
+      author={Marini, Pietro and Nalls, Michael and Freire, Juliana and Contaxis, Nicole and Santos, Aecio and Peters, Mette},
+      booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
+      year={2026},
+      publisher={VLDB Endowment}
+    }
+  title: 'Data Gatherer v0.2: High-Recall Retrieve-then-Read via Semantic Retrieval, Regex Anchoring, and Fine-Tuned T5'
+  authors:
+  - Pietro Marini
+  - Michael Nalls
+  - Juliana Freire
+  - Nicole Contaxis
+  - Aecio Santos
+  - Mette Peters
+  abstract: |
+    We study automated extraction of dataset references from biomedical articles and address a key limitation of prior Retrieve-then-Read (RTR) pipelines: low recall when section retrieval fails to capture diverse citation practices. Building on our previous work, we introduce an enhanced RTR technique that combines semantic section ranking with ontology-guided regex anchoring, and we fine-tune a Flan-T5 model for zero-marginal-cost extraction at scale. On a held-out test split of 249 articles from the DataRef-REV benchmark, our full RTR pipeline raises Gold-GT recall from 0.48 to 0.92 and F1 from 0.35 to 0.60, spanning repositories beyond GEO and ProteomeXchange. We release model weights, training data, ontology, and evaluation code.
+  year: 2026
+  entryType: inproceedings
+  firstPage: 1
+  links:
+    paper: https://openreview.net/forum?id=NA3cYmjL2u
+    code: https://github.com/VIDA-NYU/data-gatherer
+  id: marini2026data
+  thumbnail: /images/papers/BioDMS26_13.png
+  type: publication
+  group: Project Talk
+  tag: project-talk
