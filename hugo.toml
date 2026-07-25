@@ -14,3 +14,16 @@ theme = "cotton-sky"
           inline = [['\(', '\)'], ['$', '$']]
 [params]
   math = true
+  logo = "images/logo-type-horizontal.png"
+
+[menu]
+  [[menu.main]]
+    name = "Workshop"
+    url = "/"
+    pre = ""
+    weight = 10
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    pre = "blog"
+    weight = 20
