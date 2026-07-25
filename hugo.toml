@@ -15,6 +15,7 @@ theme = "cotton-sky"
 [params]
   math = true
   logo = "images/logo-type-horizontal.png"
+  defaultThumbnail = "images/logo-type-preview.png"
 
 [menu]
   [[menu.main]]
