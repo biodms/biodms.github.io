@@ -240,16 +240,22 @@
       year={2026},
       publisher={VLDB Endowment}
     }
-  title: 'Data Gatherer v0.2: High-Recall Retrieve-then-Read via Semantic Retrieval, Regex Anchoring, and Fine-Tuned T5'
+  title: 'Data Gatherer Revisited: Scalable Dataset Reference Extraction from Biomedical Literature'
   authors:
   - Pietro Marini
   - Michael Nalls
-  - Juliana Freire
+  - Mette Peters
   - Nicole Contaxis
   - Aecio Santos
-  - Mette Peters
+  - Juliana Freire
   abstract: |
-    We study automated extraction of dataset references from biomedical articles and address a key limitation of prior Retrieve-then-Read (RTR) pipelines: low recall when section retrieval fails to capture diverse citation practices. Building on our previous work, we introduce an enhanced RTR technique that combines semantic section ranking with ontology-guided regex anchoring, and we fine-tune a Flan-T5 model for zero-marginal-cost extraction at scale. On a held-out test split of 249 articles from the DataRef-REV benchmark, our full RTR pipeline raises Gold-GT recall from 0.48 to 0.92 and F1 from 0.35 to 0.60, spanning repositories beyond GEO and ProteomeXchange. We release model weights, training data, ontology, and evaluation code.
+    Scientific papers often refer to datasets through accession codes, repository links, or informal descriptions scattered across the document. Identifying these references at scale is important for reproducibility and data discovery, but sending every full article to a commercial large language model can be expensive.
+
+    Data Gatherer addresses this problem by combining evidence retrieval with language model extraction: it first selects the passages most likely to contain dataset references and then applies a language model only to those passages. Our earlier version reduced processing costs but sometimes missed relevant evidence. In this work, we improve evidence retrieval by combining semantic ranking and repository-specific identifier pattern matching. Together, these additions recover most of the recall lost by the earlier retrieve-then-read pipeline while avoiding full-document processing. We also fine-tune Flan-T5-base to perform extraction locally without relying on commercial model APIs.
+
+    On a held-out set of 249 biomedical articles, the enhanced pipeline increases recall from 0.54 to 0.98 against a reverse engineered gold standard and from 0.31 to 0.66 against a broader automatically derived benchmark. The fine-tuned model achieves recall close to that of proprietary models while reducing estimated inference cost by 330x to 1,300x, although with lower precision.
+    
+    We release the model weights, training data, repository registry, and fine-tuning and evaluation code.
   year: 2026
   entryType: inproceedings
   firstPage: 1
