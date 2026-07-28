@@ -4,6 +4,7 @@ order: 1
 type: person
 groups:
     - reviewer
+    - author
 thumbnail: images/people/kaiping-zheng.jpg
 title: Kaiping Zheng
 details: Senior Research Fellow / National University of Singapore (NUS)

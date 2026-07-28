@@ -12,6 +12,8 @@ theme = "cotton-sky"
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)'], ['$', '$']]
+  [markup.highlight]
+    noClasses = false
 [params]
   math = true
   logo = "images/logo-type-horizontal.png"
@@ -28,3 +30,6 @@ theme = "cotton-sky"
     url = "/blog/"
     pre = "blog"
     weight = 20
+
+[permalinks]
+  blog = "/blog/:year/:slug/"

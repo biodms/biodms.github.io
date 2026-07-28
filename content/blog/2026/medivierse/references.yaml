@@ -1,0 +1,28 @@
+- type: publication
+  title: "Semantic interoperability in health records standards: a systematic literature review"
+  authors:
+    - Blanda Helena de Mello
+    - Sandro José Rigo
+    - Cristiano André da Costa
+    - Rodrigo da Rosa Righi
+    - Bruna Donida
+    - Marta Rosecler Bez
+    - Luana Carina Schunke
+  venueShort: Health Technol.
+  venueLong: "Health and Technology"
+  year: 2022
+  links:
+    paper: https://doi.org/10.1007/s12553-022-00639-w
+
+- type: publication
+  title: "Nine Principles of Semantic Harmonization"
+  authors:
+    - James A. Cunningham
+    - Michel Van Speybroeck
+    - Dipak Kalra
+    - Rudi Verbeeck
+  venueShort: AMIA
+  venueLong: "AMIA Annual Symposium Proceedings"
+  year: 2016
+  links:
+    paper: https://europepmc.org/articles/PMC5333211

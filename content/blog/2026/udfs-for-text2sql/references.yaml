@@ -1,0 +1,26 @@
+- type: publication
+  title: "MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents"
+  authors:
+    - Yixing Jiang
+    - Kameron C. Black
+    - Gloria Geng
+    - Danny Park
+    - James Zou
+    - Andrew Y. Ng
+    - Jonathan H. Chen
+  venueShort: NEJM AI
+  venueLong: "NEJM AI"
+  year: 2025
+  links:
+    paper: https://ai.nejm.org/doi/full/10.1056/AIdbp2500144
+
+- type: publication
+  title: "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction"
+  authors:
+    - Mohammadreza Pourreza
+    - Davood Rafiei
+  venueShort: NeurIPS
+  venueLong: "Advances in Neural Information Processing Systems"
+  year: 2023
+  links:
+    paper: https://proceedings.neurips.cc/paper_files/paper/2023/hash/72223cc66f63ca1aa59edaec1b3670e6-Abstract-Conference.html

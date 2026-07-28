@@ -4,6 +4,7 @@ order: 1
 type: person
 groups:
     - reviewer
+    - author
 thumbnail: images/people/andra-ionescu.jpg
 title: Andra Ionescu
 details: Postdoctoral Researcher / KTH Royal Institute of Technology
