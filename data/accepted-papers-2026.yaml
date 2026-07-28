@@ -234,8 +234,8 @@
 
 - bibTeX: |-
     @inproceedings{marini2026data,
-      title={Data Gatherer v0.2: High-Recall Retrieve-then-Read via Semantic Retrieval, Regex Anchoring, and Fine-Tuned T5},
-      author={Marini, Pietro and Nalls, Michael and Freire, Juliana and Contaxis, Nicole and Santos, Aecio and Peters, Mette},
+      title={Data Gatherer Revisited: Scalable Dataset Reference Extraction from Biomedical Literature},
+      author={Marini, Pietro and Nalls, Michael and Peters, Mette and Contaxis, Nicole and Santos, Aecio and Freire, Juliana},
       booktitle={VLDB 2026 Workshop: Biomedical Data Management Systems (BioDMS)},
       year={2026},
       publisher={VLDB Endowment}
