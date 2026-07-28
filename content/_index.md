@@ -32,7 +32,7 @@ sections:
     - partial: content
       content:
         page: workshop/program.md
-    - title: Accepted Submissions
+    - title: Accepted Papers
       partial: list
       content:
         data: accepted-papers-2026
