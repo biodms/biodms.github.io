@@ -9,7 +9,6 @@ authors:
   page: people
   names:
     - m-morgan-aster
-    - m-kate-balaconis
     - matt-bemis
     - miguel-covarrubias
     - aaron-hatcher
