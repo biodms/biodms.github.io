@@ -3,7 +3,7 @@ title: 'Data System Hammers for Biomedical Nails: A Rising Research Frontier'
 slug: data-system-hammers-for-biomedical-nails
 date: 2026-07-23
 summary: |
-  As we wrap up the workshop program, we take another look at the workshop vision, highlight major themes we observed in the submissions, and give a sneak preview of what’s to come.
+  As we wrap up the inaugural BioDMS workshop program, we take another look at our vision, highlight major themes we observed in the submissions, and give a sneak preview of what’s to come.
 thumbnail: images/thumbnail.png
 authors:
   page: people
@@ -16,9 +16,9 @@ authors:
 
 We are living in the century of major advances in biomedical research. While the 20th century transformed medicine through laboratory experimentation, the 21st century is witnessing a shift toward computationally driven biomedical discovery powered by large-scale, multimodal data.
 
-For example, as the Human Genome Project in 2003 mapped the entire human genome, it became clear that our understanding of this incredibly rich source of information can only be achieved by fully leveraging the power of computers. This prompted the rise of novel methods for collection, storage, and analysis of genomic data, which resulted in the advent of personalized treatment approaches. These approaches are only made possible by analyzing a patient's unique genomic profile, providing early diagnosis of complex diseases and improved survival rates through timely intervention.
+For example, as the [Human Genome Project](https://www.genome.gov/human-genome-project) in 2003 mapped the entire human genome, it became clear that our understanding of this incredibly rich source of information can only be achieved by fully leveraging the power of computers. This prompted the rise of novel methods for collection, storage, and analysis of genomic data, which resulted in the advent of personalized treatment approaches. These approaches are only made possible by analyzing a patient's unique genomic profile, providing early diagnosis of complex diseases and improved survival rates through timely intervention.
 
-In the two decades since, we’ve seen a succession of breakthroughs: from spatial omics, which combines high-resolution imaging with molecular data; to multi-modal clinical knowledge graphs that link genomic data and longitudinal health records; all the way to great advances in medical imaging at higher resolutions than ever.  All share a common challenge:  novel sources of large-scale data that need to be analyzed. As a result of this trend, we see that organizing, integrating, querying, and sharing of this data, as well as building robust clinical deployments, are all becoming areas riddled with critical challenges. These challenges are what we call nails. To gain the most value out of these resources, one needs hammers: data management systems and tools that are custom-built specifically for nails encountered in biomedical data.
+In the two decades since, we’ve seen a succession of breakthroughs: from spatial omics, which combines high-resolution imaging with molecular data; to multi-modal clinical knowledge graphs that link genomic data and longitudinal health records; all the way to great advances in medical imaging at higher resolutions than ever.  All share a common challenge:  novel sources of large-scale data that need to be analyzed. As a result of this trend, we see that [organizing, integrating, querying, and sharing of this data](https://www.nature.com/articles/sdata201618), as well as [building robust clinical deployments](https://www.nature.com/articles/s41591-018-0307-0), are all becoming areas riddled with critical challenges. These challenges are what we call nails. To gain the most value out of these resources, one needs hammers: data management systems and tools that are custom-built specifically for nails encountered in biomedical data.
 
 The coming decades will see a rising need for better systems and tools that will help us tackle those challenges in practical and reliable ways. To get us there, we will need the help of a new kind of expert. An expert who can effectively bridge the two worlds, combining expertise in biomedical informatics workflows with innovations in data quality, storage, integration, and scalable analytics. Just like their predecessors from the worlds of statistics and machine learning who successfully transformed how we analyze biomedical data, these new biomedical data management experts will transform how we organize it.
 
@@ -28,7 +28,7 @@ This is the driving vision that motivated us to launch the inaugural Biomedical 
 - an ***incubator*** for collaborative projects that will develop novel data management tools and systems
 - a ***community*** that nurtures the next generation of biomedical data management researchers.
 
-We are by no means the first to recognize this opportunity. Earlier initiatives such as the DMAH workshop at VLDB helped lay the groundwork, while vibrant ecosystems such as Bioconductor, Galaxy, Bits in Bio, and biomedical data commons (including GDC, IDC, PDC, MIDRC, TDC, etc) continue to advance the state of the art.
+We are by no means the first to recognize this opportunity. Earlier initiatives such as the [DMAH workshop](https://sites.google.com/view/vldbdmah2022/) at VLDB helped lay the groundwork, while vibrant ecosystems such as [Bioconductor](https://www.bioconductor.org/), [Galaxy](https://usegalaxy.org/), [Bits in Bio](https://www.bitsinbio.org/), and biomedical data commons (including [GDC](https://gdc.cancer.gov/), [IDC](https://portal.imaging.datacommons.cancer.gov/), [PDC](https://proteomic.datacommons.cancer.gov/pdc/), [MIDRC](https://www.midrc.org/), [TDC](https://tdcommons.ai/), etc) continue to advance the state of the art.
 
 The interest in this first workshop edition has been very encouraging! We received 13 submissions from researchers spanning both the biomedical and data management communities, of which 9 were selected for presentation. In the remainder of this post, we highlight the major themes that emerged from these contributions and invite you to join us in shaping this emerging community at BioDMS.
 
@@ -66,8 +66,8 @@ We identified four thematic pillars that run across the submissions:
 
 ## Join us!
 
-BioDMS 2026 will take place on September 4th in Boston, a global hub for biotech innovation, co-located with VLDB 2026. The workshop program is designed to be an incubator for collaboration, featuring a mix of invited keynotes and proposed talks. Beyond the presentations, we aim to build a lasting community through networking opportunities and online engagement.
+BioDMS 2026 will take place on September 4th in Boston, a global hub for biotech innovation, co-located with [VLDB 2026](https://vldb.org/2026/). The workshop program is designed to be an incubator for collaboration, featuring a mix of invited keynotes and proposed talks. Beyond the presentations, we aim to build a lasting community through networking opportunities and online engagement.
 
 We invite you to be part of this inaugural journey. Whether you are a data systems expert looking for a high-impact application domain or a biomedical practitioner seeking better tools, your voice is essential to our mission.
 
-[Register today](https://vldb.org/2026/registration.html) and join us in Boston to help us build some new biomedical data management systems!
+**[Register today](https://vldb.org/2026/registration.html)** and join us in Boston to help us build some new biomedical data management systems!
