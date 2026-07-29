@@ -32,7 +32,7 @@ We are by no means the first to recognize this opportunity. Earlier initiatives 
 
 The interest in this first workshop edition has been very encouraging! We received 13 submissions from researchers spanning both the biomedical and data management communities, of which 9 were selected for presentation. In the remainder of this post, we highlight the major themes that emerged from these contributions and invite you to join us in shaping this emerging community at BioDMS.
 
-## Workshop Program Preview
+## Program Preview
 
 The accepted submissions for BioDMS 2026 give us an overview of the key biomedical data challenges identified by our nascent community. As outlined in our call for papers, we were soliciting two types of submissions:
 
