@@ -4,7 +4,7 @@ order: 1
 type: person
 groups:
     - author
-# thumbnail: images/people/aaron-hatcher.jpg
+thumbnail: images/people/aaron-hatcher.jpg
 title: Aaron Hatcher
 details: Principal Software Engineer / Broad Institute of MIT and Harvard
 summary: |
