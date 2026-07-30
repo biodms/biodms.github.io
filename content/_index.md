@@ -13,7 +13,7 @@ summary: |
   and develop **novel methods and systems** to overcome them, thereby helping to accelerate the pace of innovation
   in **biomedical research and healthcare**.
 
-  <i class="fa-solid fa-bullhorn"></i> Check out our [first blog post](content/blog/2026/data-system-hammers-for-biomedical-nails) to read more about the workshop vision and a summary of the accepted papers!
+  <i class="fa-solid fa-bullhorn"></i> Check out our [first blog post](blog/2026/data-system-hammers-for-biomedical-nails) to read more about the workshop vision and a summary of the accepted papers!
 sections:
     - partial: content
       content:
