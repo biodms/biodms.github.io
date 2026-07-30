@@ -19,6 +19,7 @@
   firstPage: 1
   links:
     paper: https://openreview.net/forum?id=1cDpN0B4G2
+    Blog post: blog/2026/mediverse-multimodal-clinical-exploration-and-search-on-a-single-graph/
   id: ionescu2026mediverse
   thumbnail: /images/papers/BioDMS26_1.png
   type: publication
@@ -48,6 +49,7 @@
   firstPage: 1
   links:
     paper: https://openreview.net/forum?id=KtgISugg4l
+    blog post: blog/2026/from-guardrails-to-compilers/
   id: zheng2026from
   thumbnail: /images/papers/BioDMS26_2.png
   type: publication
@@ -82,6 +84,7 @@
     paper: https://openreview.net/forum?id=c8fvDRxcVg
     website: https://gatk.broadinstitute.org/hc/en-us
     code: https://github.com/broadinstitute/gatk/tree/ah_var_store
+    blog post: blog/2026/how-the-genomic-variant-store-turns-half-a-million-genomes-into-a-platform/
   id: aster2026the
   thumbnail: /images/papers/BioDMS26_3.png
   type: publication
@@ -110,6 +113,7 @@
   links:
     paper: https://openreview.net/forum?id=N6oia01YDX
     code: https://github.com/sreerammarimuthu/AI-triage-benchmark
+    blog post: /blog/2026/right-for-the-wrong-reasons/
   id: marimuthu2026right
   thumbnail: /images/papers/BioDMS26_6.png
   type: publication
@@ -167,6 +171,7 @@
   firstPage: 1
   links:
     paper: https://openreview.net/forum?id=fcR4RiawOZ
+    blog post: blog/2026/user-defined-functions-as-a-first-class-citizen-for-text-to-sql-on-medical-databases/
   id: nguyen2026medsqlx
   thumbnail: /images/papers/BioDMS26_10.png
   type: publication
