@@ -12,26 +12,36 @@ summary: |
   (e.g., scalability, interoperability, quality, usability),
   and develop **novel methods and systems** to overcome them, thereby helping to accelerate the pace of innovation
   in **biomedical research and healthcare**.
+
+  <i class="fa-solid fa-bullhorn"></i> Check out our [first blog post](content/blog/2026/data-system-hammers-for-biomedical-nails) to read more about the workshop vision and a summary of the accepted papers!
 sections:
-    - title: Speakers
-      partial: list
-      content:
-        page: people
-        param: pages
-        where:
-          key: Params.groups
-          operator: intersect
-          match:
-            - keynote
-      params:
-        preventTitleLinks: true
-        small: false
-        grouped: true
-        sortBy:
-          param: order
     - partial: content
       content:
         page: workshop/program.md
+    - title: Speakers
+    - header: '### Keynotes'
+      partial: list
+      content:
+        page: people
+        names:
+          - juliana-freire
+          - nils-gehlenborg
+      params:
+        preventTitleLinks: true
+    - header: '### Submitted Talks'
+      partial: list
+      content:
+        page: people
+        names:
+          - andra-ionescu
+          - aaron-hatcher
+          - sreeram-marimuthu
+          - tanmoy-debnath
+          - catlynh-nguyen
+          - woodward-galbraith
+          - stephen-dorn
+      params:
+        preventTitleLinks: true
     - title: Accepted Papers
       partial: list
       content:
@@ -41,11 +51,12 @@ sections:
         hideVenueTag: true
     - partial: content
       content:
-        page: workshop/contribute.md
+        page: workshop/about.md
     - partial: content
       content:
-        page: workshop/about.md
+        page: workshop/contribute.md
     - title: Organizers
+    - header: '### General Chairs'
       partial: list
       content:
         page: people
@@ -60,7 +71,7 @@ sections:
         small: true
         sortBy:
           param: order
-    - title: Program Committee
+    - header: '### Program Committee'
       partial: list
       content:
         page: people
@@ -89,10 +100,10 @@ links:
   #   href: '#invited-speakers'
   #   large: true
   #   label: Speakers
-  - icon: fa-solid fa-file-circle-plus
-    href: https://openreview.net/group?id=VLDB.org/2026/Workshop/BioDMS
-    large: true
-    label: Submit
+  # - icon: fa-solid fa-file-circle-plus
+  #   href: https://openreview.net/group?id=VLDB.org/2026/Workshop/BioDMS
+  #   large: true
+  #   label: Submit
     # title: Submit
   - icon: fa-solid fa-ticket
     href: https://vldb.org/2026/registration.html
