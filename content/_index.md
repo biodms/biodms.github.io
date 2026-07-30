@@ -40,6 +40,7 @@ sections:
           - catlynh-nguyen
           - woodward-galbraith
           - stephen-dorn
+          - pietro-marini
       params:
         preventTitleLinks: true
     - title: Accepted Papers
