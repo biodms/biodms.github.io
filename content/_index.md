@@ -28,6 +28,15 @@ sections:
           - nils-gehlenborg
       params:
         preventTitleLinks: true
+    - header: '### Invited Talks'
+      partial: list
+      content:
+        page: people
+        names:
+          - daniel-fabbri
+          - tim-poterba
+      params:
+        preventTitleLinks: true
     - header: '### Submitted Talks'
       partial: list
       content:

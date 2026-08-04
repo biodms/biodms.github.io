@@ -3,7 +3,7 @@ hidden: true
 order: 2
 type: person
 groups:
-    - invited
+    - invited-talk
 thumbnail: images/people/tim-poterba.jpg
 title: Tim Poterba
 details: Software Engineer and Entrepreneur / Former Co-founder and CTO of E9 Genomics
