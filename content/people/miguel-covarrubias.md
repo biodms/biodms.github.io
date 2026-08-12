@@ -4,7 +4,7 @@ order: 1
 type: person
 groups:
     - author
-# thumbnail: images/people/miguel-covarrubias.jpg
+thumbnail: images/people/miguel-covarrubias.jpg
 title: Miguel Covarrubias
 details: Principal Software Engineer / Broad Institute of MIT and Harvard
 summary: |

@@ -4,7 +4,7 @@ order: 1
 type: person
 groups:
     - author
-# thumbnail: images/people/m-morgan-aster.jpg
+thumbnail: images/people/m-morgan-aster.jpg
 title: M. Morgan Aster
 details: Principal Software Engineer / Data Sciences Platform / Broad Institute of MIT and Harvard
 summary: |

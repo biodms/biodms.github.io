@@ -4,7 +4,7 @@ order: 1
 type: person
 groups:
     - author
-# thumbnail: images/people/christopher-kachulis.jpg
+thumbnail: images/people/christopher-kachulis.jpg
 title: Christopher Kachulis
 details: Director / Computational Science / Broad Institute of MIT and Harvard
 summary: |
