@@ -218,6 +218,10 @@ input, textarea, label {
     vertical-align: middle;
 }
 
+p:has(+ details) {
+    margin-bottom: 0;
+}
+
 details p {
     border-left: 1px var(--color-highlight) solid;
     padding-left: 1em;
