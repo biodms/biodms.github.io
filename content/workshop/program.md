@@ -23,8 +23,10 @@
 **Date:** September 4th \
 **Time:** 13:45 - 18:15 \
 **Venue:** The Westin Boston Seaport District, [Grand Ballroom D](https://www.marriott.com/en-us/hotels/bosow-the-westin-boston-seaport-district/events/#floorplans) \
-**[Add to Calendar](https://calget.com/vhr5m7fs)** **[Show on Map](https://maps.app.goo.gl/bJgnLS6o3StWpLaW6)**
-<details><summary>Floor Plan</summary><img src="https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf03.png"></img></details>
+{{< details summary="Floor Plan" >}}
+![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf03.png)
+{{< /details >}}
+**[<i class="fa-solid fa-calendar-plus"></i> Add to Calendar](https://calget.com/vhr5m7fs)** **[<i class="fa-solid fa-location-dot"></i> Show on Map](https://maps.app.goo.gl/bJgnLS6o3StWpLaW6)**
 
 <!-- The workshop program will feature a selection of keynotes and invited talks given by
 speakers from the biomedical and data management communities, along with talks proposed through
@@ -60,11 +62,10 @@ submissions, as well as various other networking opportunities. -->
 #### [15:05] **Invited talk**
 
 **Brim: A Democratized AI-Guided Chart Abstraction Platform** <br>
-**[<i class="fa-solid fa-circle-user"></i> Daniel Fabbri](#daniel-fabbri)** <br>
-<details><summary>Abstract</summary>
+{{< details summary="Abstract" >}}
 Clinical research, operation and clinical trials rely on accurate and actionable data, yet manual chart review is slow and difficult to scale. This talk introduces Brim: an AI-Guided Chart Abstraction Platform, which combines foundational large language models with structured workflows to assist reviewers in extracting clinical variables from unstructured medical records. Designed to augment human expertise, the platform prioritizes relevant documents, generates candidate abstractions, and streamlines validation. Brim is built for scalable processing of large datasets, allows custom variable extraction definitions, and includes the strong governance controls required for healthcare data. In this talk, you will learn about the Brim infrastructure and deployment use cases from across the nation.
-</details>
-
+{{< /details >}}
+**[<i class="fa-solid fa-circle-user"></i> Daniel Fabbri](#daniel-fabbri)** <br>
 
 ---
 
@@ -108,5 +109,11 @@ Clinical research, operation and clinical trials rely on accurate and actionable
 ---
 
 ### [17:30 - 18:15] **Poster Session**
+
+**Location: Galleria** <br>
+
+{{< details summary="Floor Plan" >}}
+![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf05.png)
+{{< /details >}}
 
 ---
