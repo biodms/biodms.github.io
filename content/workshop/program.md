@@ -97,7 +97,7 @@ Clinical research, operation and clinical trials rely on accurate and actionable
 
 #### [16:50] **Invited talk**
 
-**Embeddable OLAP for variant data: why warehousing, search, and research can share an engine** <br>
+**Embeddable OLAP for Variant Data: Why Warehousing, Search, and Research can share an Engine** <br>
 {{< details summary="Abstract" >}}
 Population genomic variant data has an awkward dual nature. Most variants in a cohort are rare, but most entries in the variant-by-sample matrix belong to the minority of common variants. The data is typically consumed either as a numeric matrix of common variants or a sparse relational table of rare ones, but the boundary of which variants belong to each domain is query-specific.
 
