@@ -23,7 +23,7 @@
 **Date:** September 4th \
 **Time:** 13:45 - 18:15 \
 **Venue:** The Westin Boston Seaport District, [Grand Ballroom D](https://www.marriott.com/en-us/hotels/bosow-the-westin-boston-seaport-district/events/#floorplans) \
-{{< details summary="Floor Plan" >}}
+{{< details summary="**Floor Plan**" >}}
 ![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf03.png)
 {{< /details >}}
 **[<i class="fa-solid fa-calendar-plus"></i> Add to Calendar](https://calget.com/vhr5m7fs)** **[<i class="fa-solid fa-location-dot"></i> Show on Map](https://maps.app.goo.gl/bJgnLS6o3StWpLaW6)**
@@ -97,9 +97,15 @@ Clinical research, operation and clinical trials rely on accurate and actionable
 
 #### [16:50] **Invited talk**
 
-<!-- **TBD** <br> -->
+**Embeddable OLAP for variant data: why warehousing, search, and research can share an engine** <br>
+{{< details summary="Abstract" >}}
+Population genomic variant data has an awkward dual nature. Most variants in a cohort are rare, but most entries in the variant-by-sample matrix belong to the minority of common variants. The data is typically consumed either as a numeric matrix of common variants or a sparse relational table of rare ones, but the boundary of which variants belong to each domain is query-specific.
+
+Three common categories of usage exist for variant data: warehousing, interactive search, and interchange with downstream analysis tools (CLI bioinformatics tools, statistical models). At scale, interchange between different systems serving these three categories becomes costly and limits the cadence of data publication, because new samples arrive incrementally but the entire dataset gets exported in bulk.
+
+Two key observations unlock systems that support all three patterns without interchange. First, variant search is best served not by large indexes but by a domain-optimized OLAP engine. Second, an embeddable engine allows direct queries of stored data by research tooling. Phoebe is such a system built around the open-source DataFusion and Vortex projects, and a lightweight web server embedding Phoebe is capable of running multiple-gene cohorting search queries against 3.1 million simulated realistic exomes on S3 in under two seconds.
+{{< /details >}}
 **[<i class="fa-solid fa-circle-user"></i> Tim Poterba](#tim-poterba)** <br>
-<!-- <details><summary>Abstract</summary>TBD</details> -->
 
 #### [17:00] **Concluding remarks**
 
@@ -110,9 +116,9 @@ Clinical research, operation and clinical trials rely on accurate and actionable
 
 ### [17:30 - 18:15] **Poster Session**
 
-**Location: Galleria** <br>
+**Room:** Galleria <br>
 
-{{< details summary="Floor Plan" >}}
+{{< details summary="**Floor Plan**" >}}
 ![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf05.png)
 {{< /details >}}
 
