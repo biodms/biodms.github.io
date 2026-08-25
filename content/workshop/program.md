@@ -124,7 +124,7 @@ The conference hotel will host a general poster session for all workshops taking
 ![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf05.png)
 {{< /details >}}
 
-We strongly encourage all speakers of submitted talks to make use of this space and display their posters during the entire day. The recommended format of the poster is A1 (portrait). Authors are free to use any of the image assets from the workshop website for their poster (e.g., the [workshop logos](https://github.com/biodms/biodms.github.io/tree/main/assets/images)).
+We strongly encourage all speakers of submitted talks to make use of this space and display their posters during the entire day. The recommended format of the poster is A1 (portrait). Authors are free to use any of the image assets from the workshop website for producing their material (e.g., the [workshop logos](https://github.com/biodms/biodms.github.io/tree/main/assets/images)).
 
 ---
 
