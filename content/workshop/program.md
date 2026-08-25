@@ -116,10 +116,21 @@ Two key observations unlock systems that support all three patterns without inte
 
 ### [17:30 - 18:15] **Poster Session**
 
+The conference hotel will host a general poster session for all workshops taking place on Friay and it will be open to all attendees!
+
 **Room:** Galleria <br>
 
 {{< details summary="Floor Plan" >}}
 ![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf05.png)
 {{< /details >}}
 
+We strongly encourage all speakers of submitted talks to make use of this space and display their posters during the entire day. The recommended format of the poster is A1 (portrait). Authors are free to use any of the image assets from the workshop website for their poster (e.g., the [workshop logos](https://github.com/biodms/biodms.github.io/tree/main/assets/images)).
+
 ---
+
+***Note to speakers:*** \
+*Please upload your slides to the designated Google Drive folder or [send them to us by email](mailto:chairs@biodms.org) before Tuesday, September 1st, 10 PM ET.*
+
+***Duration of submitted talks:***
+* <i class="fa-solid fa-bolt"></i> Lightning talk: 3 min + 2 min Q&A
+* <i class="fa-solid fa-rocket"></i> Project talk: 7 min + 3 min Q&A
