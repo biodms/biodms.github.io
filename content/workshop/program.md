@@ -23,7 +23,7 @@
 **Date:** September 4th \
 **Time:** 13:45 - 18:15 \
 **Venue:** The Westin Boston Seaport District, [Grand Ballroom D](https://www.marriott.com/en-us/hotels/bosow-the-westin-boston-seaport-district/events/#floorplans) \
-{{< details summary="**Floor Plan**" >}}
+{{< details summary="Floor Plan" >}}
 ![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf03.png)
 {{< /details >}}
 **[<i class="fa-solid fa-calendar-plus"></i> Add to Calendar](https://calget.com/vhr5m7fs)** **[<i class="fa-solid fa-location-dot"></i> Show on Map](https://maps.app.goo.gl/bJgnLS6o3StWpLaW6)**
@@ -118,7 +118,7 @@ Two key observations unlock systems that support all three patterns without inte
 
 **Room:** Galleria <br>
 
-{{< details summary="**Floor Plan**" >}}
+{{< details summary="Floor Plan" >}}
 ![Floor Plan](https://www.marriott.com/content/dam/marriott-digital/wi/us-canada/hws/b/bosow/en_us/floor-plan/meeting-space/assets/bosowf05.png)
 {{< /details >}}
 
