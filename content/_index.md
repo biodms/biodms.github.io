@@ -14,10 +14,15 @@ summary: |
   in **biomedical research and healthcare**.
 
   <i class="fa-solid fa-bullhorn"></i> Check out our [blog post](blog/2026/data-system-hammers-for-biomedical-nails) where we unpack the vision behind the workshop and give a summary of the accepted papers!
+
+  <i class="fa-solid fa-champagne-glasses"></i> Sign up for our [pre-workshop happy hour](#happy-hour)!
 sections:
     - partial: content
       content:
         page: workshop/program.md
+    - partial: content
+      content:
+        page: workshop/happy-hour.md
     - title: Speakers
     - header: '### Keynotes'
       partial: list
