@@ -40,10 +40,15 @@ submissions, as well as various other networking opportunities. -->
 
 #### [13:55] **Keynote**
 
+**Hammers for Biomedical Nails: From Matching to Meaning in Data Harmonization** <br>
+{{< details summary="Abstract" >}}
+Biomedical research is increasingly limited not by data availability, but by our ability to find, understand, and integrate it. Genomic profiles, clinical records, spatial omics, and medical imaging are produced at unprecedented scale and diversity, yet combining them still requires substantial manual effort: schemas differ across institutions, terminology is inconsistent, and semantic ambiguity often defeats even domain experts. These are the "nails."
 
-<!-- **TBD** <br> -->
+In this talk, I discuss our work, developed in the context of the ARPA-H Biomedical Data Fabric (BDF) program, on building systems — the "hammers" — for biomedical data harmonization. I give an overview of the challenges specific to biomedical data, and describe systems we have built to address them, combining classical algorithms, large language models, interactive visualization, and human validation.
+
+Beyond describing individual systems, I reflect on what we have learned about the role of LLMs in this space. LLMs do not solve data management problems on their own, but they can be powerful components within larger systems. I discuss design patterns for combining LLMs with algorithmic methods, the importance of keeping humans meaningfully in the loop, and the need for interfaces that go beyond text-based chat.
+{{< /details >}}
 **[<i class="fa-solid fa-circle-user"></i> Juliana Freire](#juliana-freire)**
-<!-- <details><summary>Abstract</summary>TBD</details> -->
 
 #### [14:30] **Submitted talks**
 
