@@ -1,0 +1,118 @@
+- type: publication
+  title: "OASIS-3: Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer Disease"
+  authors:
+    - Pamela J. LaMontagne
+    - Tammie L.S. Benzinger
+    - John C. Morris
+    - Sarah Keefe
+    - Russ Hornbeck
+    - Chengjie Xiong
+    - et al.
+  venueShort: medRxiv
+  venueLong: "medRxiv"
+  year: 2019
+  links:
+    paper: https://www.medrxiv.org/content/10.1101/2019.12.13.19014902v1
+
+- type: publication
+  title: "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)"
+  authors:
+    - Bjoern H. Menze
+    - Andras Jakab
+    - Stefan Bauer
+    - Jayashree Kalpathy-Cramer
+    - Keyvan Farahani
+    - Justin Kirby
+    - et al.
+  venueShort: IEEE TMI
+  venueLong: "IEEE Transactions on Medical Imaging"
+  year: 2015
+  links:
+    paper: https://ieeexplore.ieee.org/document/6975210
+
+- type: publication
+  title: "Clinical impact of the Alzheimer's Disease Neuroimaging Initiative: A review of studies using ADNI data (2023 to June 2025)"
+  authors:
+    - S. Kanoria
+    - et al.
+  venueShort: Alzheimer's Dement.
+  venueLong: "Alzheimer's & Dementia"
+  year: 2026
+  links:
+    paper: https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.71353
+
+- type: publication
+  title: "Labelling Instructions Matter in Biomedical Image Analysis"
+  authors:
+    - Tim Rädsch
+    - Annika Reinke
+    - Vivienn Weru
+    - Minu D. Tizabi
+    - Nicholas Schreck
+    - A. Emre Kavur
+    - et al.
+  venueShort: Nat. Mach. Intell.
+  venueLong: "Nature Machine Intelligence"
+  year: 2023
+  links:
+    paper: https://www.nature.com/articles/s42256-023-00625-5
+
+- type: publication
+  title: "HyProv: Hybrid provenance management for scientific workflows"
+  authors:
+    - V. Bountris
+    - L. Thamsen
+    - U. Leser
+  venueShort: arXiv
+  venueLong: "arXiv preprint"
+  year: 2025
+  links:
+    paper: https://arxiv.org/abs/2511.07574
+
+- type: publication
+  title: "Validity constraints for data analysis workflows"
+  authors:
+    - Florian Schintke
+    - Khalid Belhajjame
+    - Ninon De Mecquenem
+    - David Frantz
+    - Vanessa Emanuela Guarino
+    - Marcus Hilbrich
+    - et al.
+  venueShort: FGCS
+  venueLong: "Future Generation Computer Systems"
+  year: 2024
+  links:
+    paper: https://www.sciencedirect.com/science/article/pii/S0167739X24001079
+
+- type: publication
+  title: "The Brain Imaging Data Structure, a Format for Organizing and Describing Outputs of Neuroimaging Experiments"
+  authors:
+    - Krzysztof J. Gorgolewski
+    - Tibor Auer
+    - Vince D. Calhoun
+    - R. Cameron Craddock
+    - Samir Das
+    - Eugene P. Duff
+    - et al.
+  venueShort: Sci. Data
+  venueLong: "Scientific Data"
+  year: 2016
+  links:
+    paper: https://www.nature.com/articles/sdata201644
+
+- type: publication
+  title: "DataLad: distributed system for joint management of code, data, and their relationship"
+  authors:
+    - Yaroslav O. Halchenko
+    - Kyle Meyer
+    - Benjamin Poldrack
+    - Debanjum Singh Solanky
+    - Adina S. Wagner
+    - Jason Gors
+    - et al.
+  venueShort: JOSS
+  venueLong: "Journal of Open Source Software"
+  year: 2021
+  links:
+    paper: https://doi.org/10.21105/joss.03262

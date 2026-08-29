@@ -43,7 +43,7 @@ We identified four thematic pillars that run across the submissions:
 
 **Pillar 1: Bridging the Nail and Hammer Divide.** Many of the works explicitly or implicitly adopted the nail-and-hammer paradigm, either by presenting one of the two as a lightning talk or by merging the two into a project talk.
 
-- In ["The Data Management Crisis Behind AI-Based Brain MRI Diagnosis: Heterogeneity, Governance, and Reproducibility,"](https://openreview.net/forum?id=iMNEqE0H1g) the authors discuss a nail: the absence of principled infrastructure in neuroimaging and the need for a hammer, better data harmonization toolkits designed to make brain MRI diagnosis more reliable and reproducible.
+- In ["The Data Management Crisis Behind AI-Based Brain MRI Diagnosis: Heterogeneity, Governance, and Reproducibility,"](/blog/2026/when-a-brain-mri-is-more-than-an-image/) the authors discuss a nail: the absence of principled infrastructure in neuroimaging and the need for a hammer, better data harmonization toolkits designed to make brain MRI diagnosis more reliable and reproducible.
 - In  ["The Genomic Variant Store: Decoupling Cloud-Native Storage from Analysis to Power Population-Scale Genomic Services,"](/blog/2026/how-the-genomic-variant-store-turns-half-a-million-genomes-into-a-platform/), the authors present the data management engine for genomic variant data designed and deployed at the Broad Institute.
 - In ["Data Gatherer Revisited: Scalable Dataset Reference Extraction from Biomedical Literature,"](https://openreview.net/forum?id=NA3cYmjL2u) the authors discuss how the nail of manual data preparation can be addressed with semantic retrieval and regex anchoring.
 
