@@ -50,7 +50,10 @@ Beyond describing individual systems, I reflect on what we have learned about th
 {{< /details >}}
 **[<i class="fa-solid fa-circle-user"></i> Juliana Freire](#juliana-freire)**
 
-#### [14:30] **Submitted talks**
+#### [14:25] **Submitted talks**
+
+**From Guardrails to Compilers: A Constraint-First Runtime Substrate for Clinical AI Agents** <br>
+**[<i class="fa-solid fa-circle-user"></i> Kaiping Zheng](#kaiping-zheng)** **[<i class="fa-solid fa-video"></i> Video presentation](#zheng2026)**
 
 **Mediverse: Multimodal Clinical Exploration and Search on a Single Graph** <br>
 **[<i class="fa-solid fa-circle-user"></i> Andra Ionescu](#andra-ionescu)** **[<i class="fa-solid fa-bolt"></i> Lightning talk](#ionescu2026)**
@@ -139,3 +142,4 @@ We strongly encourage all speakers of submitted talks to make use of this space 
 ***Duration of submitted talks:***
 * <i class="fa-solid fa-bolt"></i> Lightning talk: 3 min + 2 min Q&A
 * <i class="fa-solid fa-rocket"></i> Project talk: 7 min + 3 min Q&A
+* <i class="fa-solid fa-video"></i> Video presentation: 5 min
