@@ -85,9 +85,11 @@ Clinical research, operation and clinical trials rely on accurate and actionable
 
 #### [15:45] **Keynote**
 
-<!-- **TBD** <br> -->
+**One UI to Query them All: The Universal Discovery Interface** <br>
+{{< details summary="Abstract" >}}
+Biomedical data repositories standardize data up front so researchers can find collections of datasets that meet their criteria, yet locating the right subset within a repository remains hard. Data discovery means filtering on rich metadata: assays and processing pipelines, source organs, and donor demographic, clinical, and genetic attributes. Purpose-built portal interfaces serve common queries well, but the edge case a researcher needs is often the one no designer anticipated, and each added feature makes the interface harder to use. I will present our Universal Discovery Interface, which is a tool-based agentic system that translates natural language requests into progressively built, linked multi-view visualizations spanning related data tables, with widgets that bridge back to traditional interaction. I will close with a vision for how we can extend the Universal Discovery Interface from a metadata exploration tool into a data exploration tool for data modalities like single-cell, spatial biology, or genomics data.
+{{< /details >}}
 **[<i class="fa-solid fa-circle-user"></i> Nils Gehlenborg](#nils-gehlenborg)** <br>
-<!-- <details><summary>Abstract</summary>TBD</details> -->
 
 #### [16:15] **Submitted talks**
 
