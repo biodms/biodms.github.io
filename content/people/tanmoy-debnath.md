@@ -16,6 +16,4 @@ links:
       label: Homepage
     - href: https://scholar.google.com/citations?user=lT8qSowAAAAJ
       icon: fa-graduation-cap
-    - href: https://www.linkedin.com/in/sreeram-marimuthu/
-      icon: fa-brands fa-linkedin
 ---
