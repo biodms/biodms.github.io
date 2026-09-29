@@ -1,4 +1,4 @@
-# Website of the Bio-DM Community
+# Website of the BioDMS Community
 
 ## Getting Started
 
